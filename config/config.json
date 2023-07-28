@@ -1,0 +1,22 @@
+
+{
+    "development": {
+      "username": "postgress",
+      "password": "abedi247",
+      "database": "smile_shoes_db",
+      "host": "localhost",
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "utilisateur_test",
+      "password": "mot_de_passe_test",
+      "database": "smile_shoes_db_test",
+      "host": "localhost",
+      "dialect": "postgres"
+    },
+    "production": {
+      "use_env_variable": "DATABASE_URL",
+      "dialect": "postgres"
+    }
+  }
+  
